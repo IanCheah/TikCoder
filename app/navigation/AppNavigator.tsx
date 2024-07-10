@@ -13,7 +13,7 @@ const AppNavigator = () => {
 
   return (
     <AppStack.Navigator>
-      {token ? (
+      {true ? (
         <>
           <AppStack.Screen name="Home" component={HomeScreen} />
           <AppStack.Screen name="Loan" component={LoanApplicationScreen} />
